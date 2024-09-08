@@ -39,6 +39,7 @@ class CustomButton extends StatelessWidget {
         style: ElevatedButton.styleFrom(
           backgroundColor: enabled ? btnColor : AppColors.greenColor,
           elevation: 0.0,
+          
           shadowColor: btnColor,
           // side: BorderSide(
           //   color: enabled ? btnColor! : AppColors.greenColor,
